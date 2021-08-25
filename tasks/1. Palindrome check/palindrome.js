@@ -9,4 +9,4 @@ export function isPalindrome(string) {
 	return true;
 }
 
-console.log(isPalindrome("eqqrfg"));
+
