@@ -12,6 +12,14 @@ export default function(center, radius) {
     },
     includes(Point) {
       // TODO: write your code here
+	   let ans = (Point.x-center.x)**2 + (Point.y-center.y)**2;
+  
+     if(radius*radius <ans)
+        return false;
+      else {
+        return true;
+      }
+
     }
   }
 }
